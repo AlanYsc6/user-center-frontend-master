@@ -32,6 +32,10 @@ const columns: ProColumns<API.CurrentUser>[] = [
   {
     title: '性别',
     dataIndex: 'gender',
+    valueEnum: {
+      0: { text: '女'},
+      1: { text: '男'},
+    }
   },
   {
     title: '电话',
@@ -46,6 +50,10 @@ const columns: ProColumns<API.CurrentUser>[] = [
   {
     title: '状态',
     dataIndex: 'userStatus',
+    valueEnum: {
+      0: { text: '启用', status: 'Success'},
+      1: { text: '禁用',status: 'Default'},
+    }
   },
   {
     title: '星球编号',

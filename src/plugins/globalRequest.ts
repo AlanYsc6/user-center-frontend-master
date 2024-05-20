@@ -12,7 +12,7 @@ import {stringify} from "querystring";
  */
 const request = extend({
   credentials: 'include', // 默认请求是否带上cookie,http://user-backend.code-nav.cn改为自己域名
-  prefix: process.env.NODE_ENV === 'production' ? 'http://user-backend.code-nav.cn' : undefined
+  prefix: process.env.NODE_ENV === 'production' ? 'http://121.40.229.102' : undefined
   // requestType: 'form',
 });
 
